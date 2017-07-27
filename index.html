@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+
+<!-- Pick a random word
+While the word has not been guessed 
+Show the player their current progress
+Get a guess from the player
+If the player wants to quit the game {
+Quit the game
+}
+Else If the guess is not a single letter {
+Tell the player to pick a single letter
+}
+Else {
+If the guess is in the word {
+ Update the player's progress with the guess
+ }
+ }
+}
+Congratulate the player on guessing the word -->
+
+   <div class="col-md-12">
+    <div id="placeHolder">_ _ _ _ _ _</div>
+    <div id="gamestatus"></div>
+    <input type="text" size="1" id="letterGuess" maxlength="1">
+    <button id="button">Guess</button>
+</div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+	
+</body>
+</html>
